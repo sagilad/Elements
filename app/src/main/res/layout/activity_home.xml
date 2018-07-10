@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/test1">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageButton
+        android:id="@+id/myElemBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/my_elements_btn" />
+
+        <ImageButton
+            android:id="@+id/exploreBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/explore_btn" />
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/center_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/center_circle" />
+
+        <ImageButton
+            android:id="@+id/qBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="111dp"
+            android:background="@drawable/question_mark"/>
+
+        <ImageButton
+            android:id="@+id/fireBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/fire" />
+
+        <ImageButton
+            android:id="@+id/woodBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/wood" />
+
+        <ImageButton
+            android:id="@+id/earthBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/earth" />
+
+        <RelativeLayout
+            android:layout_width="206dp"
+            android:layout_height="250dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:id="@+id/waterBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/water" />
+
+            <ImageButton
+                android:id="@+id/metalBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/metal" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

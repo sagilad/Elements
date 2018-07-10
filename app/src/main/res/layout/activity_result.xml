@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flow8.elements.NameBirth"
+    android:layoutDirection="ltr"
+    android:background="@drawable/name_birth_bg">
+
+    <TextView
+        android:id="@+id/yourScoreTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="The Elemets in you"
+        android:layout_marginTop="57dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/yourScoreTxt">
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp">
+
+            <com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar
+                android:id="@+id/fireBar"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                app:rcMax="100"
+                app:rcBackgroundPadding="1dp"
+                app:rcIconSize="40dp"
+                app:rcIconPadding="1dp"
+                app:rcRadius="10dp"
+                app:rcBackgroundColor="#6E212121"
+                app:rcProgressColor="#6Eed3b27"
+                app:rcIconBackgroundColor="#6EB71C1C" />
+
+            <TextView
+                android:id="@+id/fireTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fire"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp">
+
+        <com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar
+            android:id="@+id/earthBar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:rcMax="100"
+            app:rcBackgroundPadding="1dp"
+            app:rcIconSize="40dp"
+            app:rcIconPadding="1dp"
+            app:rcRadius="10dp"
+            app:rcBackgroundColor="#6E212121"
+            app:rcProgressColor="#6EFFCC80"
+            app:rcIconBackgroundColor="#6EFFA726" />
+
+            <TextView
+                android:id="@+id/earthTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fire"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp">        
+        
+        <com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar
+            android:id="@+id/metalBar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:rcMax="100"
+            app:rcBackgroundPadding="1dp"
+            app:rcIconSize="40dp"
+            app:rcIconPadding="1dp"
+            app:rcRadius="10dp"
+            app:rcBackgroundColor="#6E212121"
+            app:rcProgressColor="#6EBDBDBD"
+            app:rcIconBackgroundColor="#6E757575" />
+
+            <TextView
+                android:id="@+id/metalTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="metal"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp">
+
+        <com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar
+            android:id="@+id/waterBar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:rcMax="100"
+            app:rcBackgroundPadding="1dp"
+            app:rcIconSize="40dp"
+            app:rcIconPadding="1dp"
+            app:rcRadius="10dp"
+            app:rcBackgroundColor="#6E212121"
+            app:rcProgressColor="#6E4FC3F7"
+            app:rcIconBackgroundColor="#6E01579B" />
+
+            <TextView
+                android:id="@+id/waterTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="water"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp">        
+        
+        <com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar
+            android:id="@+id/woodBar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:rcMax="100"
+            app:rcBackgroundPadding="1dp"
+            app:rcIconSize="40dp"
+            app:rcIconPadding="1dp"
+            app:rcRadius="10dp"
+            app:rcBackgroundColor="#6E212121"
+            app:rcProgressColor="#6E4CAF50"
+            app:rcIconBackgroundColor="#6E1B5E20" />
+
+            <TextView
+                android:id="@+id/woodTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="water"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>        
+
+    </LinearLayout>
+
+</RelativeLayout>

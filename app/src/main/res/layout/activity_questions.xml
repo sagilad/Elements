@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@drawable/questions_bg">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="280dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textColor="#fff"
+        android:text="You see yourself as a person of service?" />
+
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="60dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+
+        <ImageButton
+        android:id="@+id/neverBtn"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/never" />
+
+
+        <ImageButton
+            android:id="@+id/veryTrueBtn"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/verytrue" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="215dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="40dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@+id/falseBtn"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/false_b" />
+
+
+        <ImageButton
+        android:id="@+id/trueBtn"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/true_b" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@+id/nrBtn"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/not_relevant" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

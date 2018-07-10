@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="elements" >
+        <item>Earth</item>
+        <item>Fire</item>
+        <item>Metal</item>
+        <item>Water</item>
+        <item>Wood</item>
+    </string-array>
+
+    <string-array name="questions_earth" >
+        <item>Do you see yourself as a person of service?</item>
+        <item>Do you work on being independent?</item>
+        <item>Are your friends use you as a mediator?</item>
+        <item>Do you suffer from swelling or edema?</item>
+        <item>Do you find yourself often \"stuck\" and it\'s challenging for you to change direction?</item>
+        <item>Do you tend to help and support people?</item>
+        <item>Do you hunted by self-doubts?</item>
+        <item>Do you like to be in control, but not in the spot light?</item>
+        <item>Is there is a room for improvement in your efficiency?</item>
+        <item>Is your need to fit in and to be liked carries you to conformism (obedience, week character)?</item>
+        <item>Do you suffer sometimes identity crises?</item>
+        <item>Do you feel a strong impulse to fit in?</item>
+        <item>Do you suffer from muscle weakness?</item>
+        <item>Do your friends call you a peace maker?</item>
+        <item>Loyalty considered for you one of the highest values?</item>
+        <item>Do you considered to be conservative in your views?</item>
+        <item>Do you have a need to be needed by others?</item>
+        <item>Are you involved in others matters?</item>
+        <item>Do you have problems with the Lymph gland or other glands in the body?</item>
+        <item>Do you feel sometimes that things are changing too fast for your rate?</item>
+        <item>Do you tend to be over protective?</item>
+        <item>Are your unrealistic expectations leave you often disappointed?</item>
+        <item>Do you have a tendency to be all for everyone?</item>
+        <item>Do you feel hole deep down in the belly?</item>
+        <item>Do you have a solid squarish body structure?</item>
+    </string-array>
+
+    <string-array name="questions_fire" >
+        <item>Are you putting out energy in searching for the Divine?</item>
+        <item>Do you have weak or enlarged Heart?</item>
+        <item>Are you charismatic?</item>
+        <item>Do you recoil from pain drastically?</item>
+        <item>Do you like drama, shows and spot light?</item>
+        <item>Are you spontaneous?</item>
+        <item>Do you suffer from mouth or tongue wounds?</item>
+        <item>Is it hard for you to say No?</item>
+        <item>Are you more Sensual than your friends?</item>
+        <item>Do you have speech disorders?</item>
+        <item>Do you like to speak your mind?</item> -
+        <item>Is parting/breakup frightening you?</item>
+        <item>Do you have Street smart?</item>
+        <item>Do you desire more Self-realization?</item>
+        <item>Do you get bored easily?</item>
+        <item>Does your cheeks turn red easily?</item>
+        <item>Can you be described as an extrovert type?</item>
+        <item>Are you brilliant and shine in social events?</item>
+        <item>Do you have eczema?</item>
+        <item>Do you have issues with boundaries?</item>
+        <item>Does the need for intimacy is a strong motivator in your life?</item>
+        <item>Do you share easily?</item>
+        <item>Are you optimistic and enthusiastic about life?</item>
+        <item>Are you empathetic?</item>
+        <item>Do you suffer from anxiety or sleep disorders?</item>
+    </string-array>
+
+
+    <string-array name="questions_metal" >
+        <item>Are you a person of order?</item>
+        <item>Do you value good virtues and justice?</item>
+        <item>Does rituals are important to you?</item>
+        <item>Do you have stiff muscles and joints?</item>
+        <item>Is chaos/disorder is your enemy?</item>
+        <item>Do you usually have no time for nonsense?</item>
+        <item>Do you have a define standards?</item>
+        <item>Are you sensitive for temperature change?</item>
+        <item>Do you dislike disorder and dissonance?</item>
+        <item>Do you have dry skin/hair?</item>
+        <item>Do you afraid of intimacy?</item>
+        <item>Do you have a developed aesthetic sense?</item>
+        <item>Do you dislike the lack of attention in others?</item>
+        <item>Do you considered to be remote and not enthusiastic?</item>
+        <item>Do you have a "tight" chest and dry cough?</item>
+        <item>Are logic and high values pleasure to your mind?</item>
+        <item>Are you Strict and sometimes a little petty?</item>
+        <item>Do you have delicate taste?</item>
+        <item>Does some call you "righteous"?</item>
+        <item>Do you have a lot of callus/warts?</item>
+        <item>Is social involvement low on your list of priorities?</item>
+        <item>Do you have some sinus problems?</item>
+        <item>Is your self-control drive your spontaneous friends mad?</item>
+        <item>Do you sometimes wish to change others?</item>
+        <item>Do you often have constipations?</item>
+    </string-array>
+
+    <string-array name="questions_water" >
+        <item>Would you describe yourself as a solitary and self-examining type of person?</item>
+        <item>Do you have an excessive sexual drive?</item>
+        <item>Is searching for truth is the main motive in your life?</item>
+        <item>Do you averse shallowness in other?</item>
+        <item>Are you creative, original and with strong sense of imagination?</item>
+        <item>Are you modest and afraid to be in the spotlight?</item>
+        <item>Do you provide yourself and are you all that you need?</item>
+        <item>Do you have gum problems or deteriorating teeth condition?</item>
+        <item>Are you looking for the deep mystery that behind everything?</item>
+        <item>Are you not in touch with your feelings?</item>
+        <item>Do you have back pains?</item>
+        <item>Are you a bit indelicate and rude?</item>
+        <item>Do you have an intrusive and perhaps even criminal mind?</item>
+        <item>Do you hate to waste and tend to keep on things?</item>
+        <item>Do you tend to dive into everything?</item>
+        <item>Do you suffer from arteriosclerosis?</item>
+        <item>Are you having a hard time sharing with others?</item>
+        <item>Are you suffering when you are in solitude or lonely?</item>
+        <item>Do you afraid to ""lose" yourself in meeting with others?</item>
+        <item>Does your friends think of you as strange and mysterious?</item>
+        <item>Do you have extraordinary concentration?</item>
+        <item>Do you feel uncomfortable in social circumstances?</item>
+        <item>Do you have a problem adapting yourself to social rules?</item>
+        <item>Do you suffer Kidneys or Urinary bladder problems?</item>
+        <item>Do you tend to be cautious and objective with other people?</item>
+    </string-array>
+
+    <string-array name="questions_wood" >
+        <item>Do you initiate and start projects?</item>
+        <item>Do you have an issue with authority?</item>
+        <item>Do you suffer from moving pains in different parts of your body?</item>
+        <item>Are you assertive and act in confidence?</item>
+        <item>Do you dislike slowness and clumsiness in others?</item>
+        <item>Do you like to keep on even when the odds are low, and prove that you can?</item>
+        <item>Are you always busy or going somewhere?</item>
+        <item>Do you have a high blood pressure?</item>
+        <item>Have you been told more than once that you do not compromise?</item>
+        <item>Do you always must be the first and the best?</item>
+        <item>Is it difficult for you to sit quietly or in solitude?</item>
+        <item>Do you have muscle cramps often?</item>
+        <item>Do you tend to create rules and then break them?</item>
+        <item>Are you enthusiastic about everything you do?</item>
+        <item>Are you a pioneer in all your actions?</item>
+        <item>Are your nails hard and thick / dry and cracked?</item>
+        <item>Do you have less patience with people which are not dedicated and not knowing exactly where they are going?</item>
+        <item>Is your self-freedom is important for you?</item>
+        <item>Do you afraid to show you are vulnerable?</item>
+        <item>Do you like speed and adventures?</item>
+        <item>Do you suffer from Tendonitis?</item>
+        <item>Do you tend to manipulate to get what you want?</item>
+        <item>Is controlling anger is one of your main issues?</item>
+        <item>Is it so that you cannot stand restrictions and cables?</item>
+        <item>Do you preform best when under pressure?</item>
+    </string-array>
+</resources>

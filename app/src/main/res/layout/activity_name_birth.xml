@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flow8.elements.NameBirth"
+    android:layoutDirection="ltr"
+    android:background="@drawable/name_birth_bg">
+
+<RelativeLayout
+    android:layout_width="280dp"
+    android:layout_height="400dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
+
+    <ImageView
+        android:id="@+id/name_birth"
+        android:layout_width="280dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/name_birth"/>
+
+    <EditText
+        android:id="@+id/nameEdit"
+        android:background="@android:color/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:maxLength="16"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp" />
+
+    <Spinner
+        android:id="@+id/daySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <Spinner
+        android:id="@+id/monthSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="110dp"
+        />
+
+    <Spinner
+        android:id="@+id/yearSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="180dp"
+        />
+
+    <ImageButton
+        android:id="@+id/contBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/continue_bottun"
+        />
+
+
+</RelativeLayout>
+
+
+
+</RelativeLayout>
