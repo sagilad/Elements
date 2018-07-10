@@ -1,5 +1,5 @@
 # Elements
-** Elements - Find your own Element **
+**Elements - Find your own Element**
 
 The Wu Xing, also known as the Five Elements or Five Phases is a fivefold conceptual scheme that many traditional Chinese fields used to explain a wide array of phenomena, from cosmic cycles to the interaction between internal organs, and from the succession of political regimes to the properties of medicinal drugs. 
 The "Five Phases" are:
